@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body {
+    color: white;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(253,212,45);
+    background: linear-gradient(221deg, rgba(253,212,45,1) 50%, rgba(80,80,80,1) 50%, rgba(34,193,195,1) 51%);
+}
+.container {
+    border-top: 1px solid #d4d4d4;
+    border-left: 1px solid #d4d4d4;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+    box-shadow: 2px 2px 30px 6px rgba(10, 10, 10, 0.212);
+    
+}
+.form-div {
+    width: 500px;
+    height: 350px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-div form .email, .pass, .checkbox{
+    margin-bottom: 10px;
+}
+.form-div form .email input {
+    width: 250px;
+    height: 35px;
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    outline: none;
+    margin-left: 34px;
+    font-size: 14px;
+    transition: .4s;
+}
+.form-div form .pass input {
+    width: 250px;
+    height: 35px;
+    padding: 10px;
+    outline: none;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    font-size: 13px;
+    transition: .4s;
+}
+.form-div form .email input:focus, .form-div form .pass input:focus {
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+    box-shadow: -3px 10px 14px 9px rgba(158, 157, 157, 0.31);
+    color: white;
+}
+.form-div form label {
+    font-size: large;
+    
+}
+form h2 {
+    margin-bottom: 40px;
+    font-size: ;
+}
+.header {
+    display: flex;
+    justify-content: center;
+}
+.login {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.submit {
+    width: 100px;
+    padding: 10px;
+    outline: none;
+    border: 1px solid #d4d4d4;
+    border-radius: 10px;
+    font-size: 1.3cap;
+    font-weight: 600;
+    transition: .1s;
+
+}
+.submit:focus {
+    box-shadow: -3px 10px 14px 9px rgba(54, 54, 54, 0.267);
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+    color: white;
+}
